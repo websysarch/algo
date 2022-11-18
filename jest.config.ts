@@ -1,4 +1,4 @@
-import type { Config } from "@jest/types";
+import type { Config } from '@jest/types'
 /*
  * For a detailed explanation regarding each configuration property and type check, visit:
  * https://jestjs.io/docs/configuration
@@ -24,7 +24,7 @@ const config: Config.InitialOptions = {
   // collectCoverageFrom: undefined,
 
   // The directory where Jest should output its coverage files
-  coverageDirectory: "coverage",
+  coverageDirectory: 'coverage',
 
   // An array of regexp pattern strings used to skip coverage collection
   // coveragePathIgnorePatterns: [
@@ -32,7 +32,7 @@ const config: Config.InitialOptions = {
   // ],
 
   // Indicates which provider should be used to instrument code for coverage
-  coverageProvider: "v8",
+  coverageProvider: 'v8',
 
   // A list of reporter names that Jest uses when writing coverage reports
   // coverageReporters: [
@@ -77,16 +77,7 @@ const config: Config.InitialOptions = {
   // ],
 
   // An array of file extensions your modules use
-  moduleFileExtensions: [
-    "js",
-    "mjs",
-    "cjs",
-    "jsx",
-    "ts",
-    "tsx",
-    "json",
-    "node",
-  ],
+  moduleFileExtensions: ['js', 'mjs', 'cjs', 'jsx', 'ts', 'tsx', 'json', 'node'],
 
   // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
   // moduleNameMapper: {},
@@ -101,7 +92,7 @@ const config: Config.InitialOptions = {
   // notifyMode: "failure-change",
 
   // A preset that is used as a base for Jest's configuration
-  preset: "ts-jest",
+  preset: 'ts-jest',
 
   // Run tests from one or more projects
   // projects: undefined,
@@ -145,7 +136,7 @@ const config: Config.InitialOptions = {
   // snapshotSerializers: [],
 
   // The test environment that will be used for testing
-  testEnvironment: "node",
+  testEnvironment: 'node',
 
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
@@ -154,7 +145,7 @@ const config: Config.InitialOptions = {
   // testLocationInResults: false,
 
   // The glob patterns Jest uses to detect test files
-  testMatch: ["**/*.test.ts"],
+  testMatch: ['**/*.test.ts'],
 
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
   // testPathIgnorePatterns: [
@@ -172,7 +163,7 @@ const config: Config.InitialOptions = {
 
   // A map from regular expressions to paths to transformers
   transform: {
-    "\\.ts$": ["ts-jest", { diagnostics: true }],
+    '\\.ts$': ['ts-jest', { diagnostics: true }],
   },
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
@@ -192,6 +183,6 @@ const config: Config.InitialOptions = {
 
   // Whether to use watchman for file crawling
   // watchman: true,
-};
+}
 
-export default config;
+export default config
